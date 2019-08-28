@@ -1,17 +1,42 @@
-* {
-  margin:0px;
-  padding:0px;
+body{background-image: url(https://2f4u.fansubs.com.br/wp-content/uploads/2017/07/site-background.jpg)
 }
+nav{display:inline
+}
+p{font-style:italic;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 1.2em;
+  font-weight:bold;
+}
+.video-border{
+  border:10px solid black;
+      border-radius:15%;
+}
+.video-display-inline{
+  display:inline;
+}
+.font-courier{
+  font-family:'Courier New', Courier, monospace;
+}
+.italic{
+  font-style:italic;
+}
+.color-grey{
+  color:#737373;
+}
+.bold{
+  font-weight:bold;
+}
+#defaultbackground{
+  background-image: url(https://2f4u.fansubs.com.br/wp-content/uploads/2017/07/site-background.jpg)
+}
+.header2{
+  font-family:'Impact';
+  font-size:50px
+}
+.flex-container{
+  display: flex;
+  justify-content: center ;
+  flex-direction: row;
+  flex-wrap: wrap;
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
-
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
-}
+  }
